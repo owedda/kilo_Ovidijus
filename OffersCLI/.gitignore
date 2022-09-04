@@ -1,0 +1,5 @@
+vendor
+.github
+.idea
+.gitattributes
+phpunit.xml.dist

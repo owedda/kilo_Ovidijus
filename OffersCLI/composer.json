@@ -1,0 +1,27 @@
+{
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../OffersPackage"
+    }
+  ],
+  "require": {
+    "php": "^8.0.2",
+    "ovidijus/offers-package": "@dev",
+    "guzzlehttp/guzzle": "^7.5",
+    "monolog/monolog": "^3.2",
+    "phpunit/phpunit": "^9.5",
+    "php-di/php-di": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Readers\\": "Readers/",
+      "Strategies\\": "Strategies/",
+      "Factories\\": "Factories/",
+      "Outputs\\": "Outputs/",
+      "Tests\\": "Tests/",
+      "Tasks\\": "Tasks/",
+      "Loggers\\": "Loggers/"
+    }
+  }
+}

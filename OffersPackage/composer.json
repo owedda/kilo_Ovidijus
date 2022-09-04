@@ -1,0 +1,18 @@
+{
+    "name": "ovidijus/offers-package",
+    "description": "Does cool things with offers for kilo",
+    "type": "library",
+    "license": "ORapalis",
+    "autoload": {
+        "psr-4": {
+            "Ovidijus\\OffersPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "OvidijusRapalis",
+            "email": "orapalis@gmail.com"
+        }
+    ],
+    "require": {}
+}
